@@ -41,3 +41,9 @@ async function getProprietario(id) {
     conn.release();
   }
 }
+
+export default {
+  insertProprietario,
+  getProprietario,
+  getProprietarios,
+};
